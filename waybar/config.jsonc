@@ -99,15 +99,15 @@
   },
   "pulseaudio": {
     "format": "{icon}",
-    "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
     "format-muted": "",
     "format-icons": {
       "headphone": "",
       "headset": "",
-      "default": ["", "", ""]
-    }
+      "default": ["", "", ""],
+    },
+    "on-click": "pavucontrol"
   },
   "group/tray-expander": {
     "orientation": "inherit",
