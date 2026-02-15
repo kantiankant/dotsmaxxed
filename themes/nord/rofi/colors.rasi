@@ -1,0 +1,16 @@
+/**
+ * Atomic Color Dictionary - Creamy Theme
+ */
+* {
+    /* Base Shorthand */
+    bg:             #343745;  /* Deep Brown */
+    fg:             #D2D8E6;  /* Soft Cream */
+    button:         #333843;  /* Darker Brown for inputs/selection */
+
+    /* Rofi Internal Mapping */
+    background-color:   @bg;
+    text-color:         @fg;
+    
+    /* Global border color shorthand */
+    border-col:         @fg;
+}
